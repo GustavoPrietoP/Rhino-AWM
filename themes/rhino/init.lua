@@ -7,7 +7,7 @@ local my_table = awful.util.table or gears.table -- 4.{0,1} compatibility
 
 local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
 local wallpaper_path = "~/.config/awesome/themes/rhino/rhino-wallpaper.png"
-local rhino_icon = "/home/gustavo/.config/awesome/themes/rhino/icons/rhino_64x64.png"
+local rhino_icon = os.getenv("HOME").. "/.config/awesome/themes/rhino/icons/rhino_64x64.png"
 
 local theme = {}
 
